@@ -5,8 +5,15 @@
     <meta name="viewport" content="width=device-width">
     <title>Message </title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <script>
+      function visitUser() {
+        var user = document.getElementById("username").value;
+        window.location.href = "https://jemunm378.github.io/MessagesTest/users/#" + user;
+      }
+    </script>
   </head>
   <body>
+    <center><input type="string" id="username" name="username" value="jemunm"> <button id=button type="button" onclick="visitUser()">🔎</button></center>
     <script src="index.js"></script>
   </body>
 </html>
