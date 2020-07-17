@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="../index.css" rel="stylesheet" type="text/css" />
+    <title>ScratchStatistics</title>
+    <script>
+    function visitUser() {
+        var user = document.getElementById("userName").value;
+        window.location.href = "https://spaceflyer234.github.io/ScratchStatistics/users/#" + user;
+        location.reload();
+      }
+    </script>
+  </head>
+  <body>
+    <h1>ScratchStatistics</h1>
+    <center><input type="string" id="userName" name="userName" value="Spaceflyer234"> <button id=button type="button" onclick="visitUser()">🔎</button></center>
+    <center><h1 id="username"></h1></center>
+    <center><p id="messageCount"></p></center>
+    <center><h3>Messages</h3></center>
+    <center><p id="id"></p></center>
+    <center><h3>User ID</h3></center>
+    <center><p id="rank"></p></center>
+    <center><h3>Rank</h3></center>
+    <center><p id="following"></p></center>
+    <center><h3>Following</h3></center>
+    <center><p id="followers"></p></center>
+    <center><h3>Followers</h3></center>
+    <center><p id="country"></p></center>
+    <center><h3>Country</h3></center>
+    <script src="../index.js"></script>
+  </body>
+</html>
